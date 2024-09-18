@@ -1,0 +1,307 @@
+*{
+	font-family:"Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+        margin:0px;
+        padding:0px;
+}  
+.header{
+	                
+}
+.headerContents{   
+	display: flex;
+        max-width:1370px;
+        width:100%;
+        height:64px;
+    
+}
+.gmailTitle{
+	display: flex;	
+}
+.menuIcondiv{   
+       display:inline-block;
+    
+       padding-top: 20px;
+       padding-left: 22px;
+       padding-right:21px;
+       background-color:#dbe1db;
+       
+}
+.menuIcon{
+       width: 24px;
+       height: 24px;
+      
+}
+
+.gmailImgdiv{
+       margin-top: 17px;
+       margin-left: 21px;
+}
+.headingDiv{
+       margin-top: 19px;
+       margin-left: 7px;       
+}
+.headingGmail{
+	font-size:138%;
+}
+.searchDiv{
+        margin-top: 1%;
+        margin-left: 140px;
+        margin-bottom:5px;
+	display: flex;
+        width: 100%;
+        max-width: 590px;
+        background-color:#c3d7f8;
+        border-radius: 22px;        
+            
+}
+.searchBarDiv{
+        display: flex;
+	width: 100%;
+        padding-right: 2%;
+        padding-left: 1%;
+      
+                   
+}
+.searchButtonDiv{
+        margin-left:2%;
+}
+.searchOptionDiv{
+	margin-top:1%;
+        margin-right:2%;
+        margin-left:auto;      
+}
+.searchButton{
+        width: 50%;
+        height:90%;
+        border:none;
+	border-radius:60px;
+        background-color:#c3d7f8;
+     
+        margin-left:2%;
+}
+.searchOptions{
+        width: 60%;
+        border:none;
+	border-radius:50px;
+        background-color:#c3d7f8;
+       
+}
+.searchIcon{
+	
+}
+.searchBar{   
+	border-radius: 20px;
+        display:flex;
+      
+        width:100%;
+        background-color:#c3d7f8;
+        border:none;
+        font-size:17px;
+      
+}
+.searchBar:focus{
+	outline: none;
+}
+.activeDiv{
+        margin-top: 1%;
+        margin-left:40px;
+	display:flex;
+        width:auto; 
+        max-width:300px;
+        margin-bottom:5px;           	
+}
+.activeGreen{
+        margin-left: 7%;
+        color:green;
+        font-size:170%;
+}
+.activeButton{
+	display:flex;
+        border-radius: 22px;
+	background-color:#c3d7f8;
+         
+          
+}
+.active{
+	margin-left: 6%;
+	padding-top: 8%;
+        font-size:90%;
+}
+.activeDrop{
+        margin-left:6%;
+        margin-right:7%;
+        
+}
+.helpDiv{
+	margin-left:21px;
+        padding-top: 4%;
+
+}
+.settingsDiv{
+	margin-left:21px;
+        padding-top: 4%;
+}
+.menuDiv{
+	margin-left:21px;
+        padding-top: 4%;
+}
+.menuImg{
+	width:30%;
+        height:30%;
+	border-radius: 20px;
+}
+.nameDiv{
+	display: flex;
+        position: relative;
+        margin-left:21px;
+        padding-right:8px;
+        height:70%;
+        width:120px;
+        padding-left:5px;
+        border-style: groove;
+        border-color: hsl(210deg 7.84% 64.97%);
+        border-width: thin;
+        border-radius: 6px;
+        margin-top:0.5%;     
+}
+.techImg{
+	width:80px;
+        height:25px;
+        margin-top:10px;
+}
+.letter{
+	margin-top:22%; 
+        margin-left:38%;
+        color:white;       
+}
+.nameLetter{
+        background-color:#3e5fbc;
+        border-radius:50px;
+        width: 31px;
+        height: 68%;
+        margin-left:10px;
+        margin-top:8%;
+}
+.main{
+	display:flex;
+       height:100%;
+}
+.sideNav{
+	height:100%;
+        width:67px;;
+        background-color:#dbe1db;
+}
+.sideMenudiv{
+	margin-left:25%;
+        
+}
+.mailDiv{
+	padding-top:52%;
+}
+.mailIcon{
+	margin-left:20%;
+}
+.mail{
+	font-size:12px;
+        margin-top:15%;
+        margin-left:13%;
+}
+.rightMenudiv{
+        background-color: transparent;
+        min-width: 256px;
+        overflow: hidden;
+        width: 0;
+}
+.composeButton{
+        margin-top:8px;
+	display:flex;
+        background-color:rgb(174,203,250);
+	align-items: center;
+        margin-left:16px;
+        padding:15 18px;
+        border-radius:17px;
+}
+.composeDiv{
+	display:flex;
+       
+}
+.composeImg{
+	background-color:#a8c7fa;
+        height:24px;
+}
+.composeLink{
+	margin-left: 13px;
+        text-decoration: none;
+        color: black;
+        font-size:14px;
+
+}
+.inboxDiv{
+	display:flex;
+        margin-top:12px;
+}
+.rightMenus{
+	padding-left:30px;
+        margin-top:24px;
+}
+.inboxLink{
+	text-decoration: none;
+        color: black;
+        font-size:14px;
+        margin-left:15px;
+        margin-top:3px;
+}
+.labelDiv{
+	margin-top:35px;
+        padding-left:33px;
+        display:flex;
+        justify-content:space-between;
+        padding-right:20px;
+}
+.label{
+	text-decoration: none;
+        color: black;
+        font-size:17px;
+}
+.rightDiv{
+	display:flex;
+        flex-direction:column;
+        width:100%;
+}
+.rightTop{
+        display:flex;
+        margin-top:8px;
+        padding-left:20px;
+}
+.checkBoxdiv{
+        display:flex;
+        border-style: groove;
+        border-color: hsl(210deg 7.84% 64.97%);
+        border-width: thin;
+        border-radius: 3px;
+	padding:8px 2px 8px 5px;               
+}
+.refreshDiv{
+	margin-left:17px;
+        padding-top:10px;
+}
+.optionDots{
+	margin-left:19px;
+        padding-top:10px;
+}
+.rightMaildiv{
+	margin-top:10px;
+}
+.message{
+	display:flex;
+        justify-content:space-between;
+}
+.messageDiv{
+	display: flex;
+        width:100%;
+        padding-left:25px;     
+}
+.star{
+	margin-left:10px;
+        height:14px;
+}
+
