@@ -3,26 +3,24 @@
         margin:0px;
         padding:0px;
 }  
-.header{
-	                
+body{
+	overflow-y:hidden; 
 }
 .headerContents{   
 	display: flex;
         max-width:1370px;
         width:100%;
         height:64px;
-    
 }
 .gmailTitle{
 	display: flex;	
 }
 .menuIcondiv{   
        display:inline-block;
-    
        padding-top: 20px;
        padding-left: 22px;
        padding-right:21px;
-       background-color:#dbe1db;
+       background-color:rgb(232,234,237);
        
 }
 .menuIcon{
@@ -49,23 +47,21 @@
 	display: flex;
         width: 100%;
         max-width: 590px;
-        background-color:#c3d7f8;
-        border-radius: 22px;        
-            
-}
+        background-color:#dbe1dd;
+        border-radius: 22px;  
+}      
 .searchBarDiv{
         display: flex;
 	width: 100%;
         padding-right: 2%;
-        padding-left: 1%;
-      
-                   
+        padding-left: 1%;                   
 }
 .searchButtonDiv{
+        padding-top:11px;
         margin-left:2%;
 }
 .searchOptionDiv{
-	margin-top:1%;
+	margin-top:11px;
         margin-right:2%;
         margin-left:auto;      
 }
@@ -74,7 +70,7 @@
         height:90%;
         border:none;
 	border-radius:60px;
-        background-color:#c3d7f8;
+        background-color:#dbe1dd;
      
         margin-left:2%;
 }
@@ -82,7 +78,7 @@
         width: 60%;
         border:none;
 	border-radius:50px;
-        background-color:#c3d7f8;
+        background-color:#dbe1dd;
        
 }
 .searchIcon{
@@ -91,9 +87,8 @@
 .searchBar{   
 	border-radius: 20px;
         display:flex;
-      
         width:100%;
-        background-color:#c3d7f8;
+        background-color:#dbe1dd;
         border:none;
         font-size:17px;
       
@@ -112,29 +107,26 @@
 .activeGreen{
         margin-left: 7%;
         color:green;
+        margin-top:2px;
         font-size:170%;
 }
 .activeButton{
 	display:flex;
         border-radius: 22px;
-	background-color:#c3d7f8;
-         
-          
+	background-color:#dbe1dd;         
 }
 .active{
 	margin-left: 6%;
-	padding-top: 8%;
+	padding-top: 12%;
         font-size:90%;
 }
 .activeDrop{
         margin-left:6%;
-        margin-right:7%;
-        
+        margin-right:7%;        
 }
 .helpDiv{
 	margin-left:21px;
         padding-top: 4%;
-
 }
 .settingsDiv{
 	margin-left:21px;
@@ -187,45 +179,60 @@
 }
 .sideNav{
 	height:100%;
-        width:67px;;
-        background-color:#dbe1db;
+        width:88px;;
+        background-color:rgb(232,234,237);     
 }
 .sideMenudiv{
-	margin-left:25%;
-        
+        margin-left:10px;
+       margin-right:10px;
 }
 .mailDiv{
-	padding-top:52%;
+	padding-top:40%;
+        
 }
 .mailIcon{
-	margin-left:20%;
+	
 }
 .mail{
-	font-size:12px;
-        margin-top:15%;
-        margin-left:13%;
+	font-size:12px;  
+        margin-left:23%;
+}
+.sideIconmail{
+	padding:8px 10px 8px 15px;
+        border-radius:30px;
+        background-color: #d9dddb;
+}
+.sideIcon{
+	padding:8px 13px 8px 15px;
+        border-radius:30px;
+}
+.sideIcon:hover{
+	background-color:#d9dddb;
 }
 .rightMenudiv{
         background-color: transparent;
-        min-width: 256px;
-        overflow: hidden;
-        width: 0;
+        min-width: 256px;             
 }
 .composeButton{
         margin-top:8px;
 	display:flex;
-        background-color:rgb(174,203,250);
+        background-color:#c2e7ff;
 	align-items: center;
-        margin-left:16px;
-        padding:15 18px;
+        margin-left:14px;
+        padding:16px 24px 15px 14px;
         border-radius:17px;
+        
 }
 .composeDiv{
-	display:flex;
-       
+	display:flex;         
+}
+.composeButton:hover{
+	border-right: 1px solid #d6d7db;
+	border-left: 1px solid #d6d7db;
+	box-shadow: 2px 2px 5px 0px rgb(0, 0, 0, 0.5);
 }
 .composeImg{
-	background-color:#a8c7fa;
+	background-color:#c2e7ff;
         height:24px;
 }
 .composeLink{
@@ -235,14 +242,31 @@
         font-size:14px;
 
 }
+.inboxDivfirst{
+	display:flex;
+        margin-top:2px;
+        background-color:#c8dcfc;
+        padding-left:13px;
+        padding-top:5px;
+        padding-bottom:5px;
+        border-radius:20px;
+}
 .inboxDiv{
 	display:flex;
-        margin-top:12px;
+        margin-top:2px;
+        padding-left:13px;
+        padding-top:5px;
+        padding-bottom:5px;
+        border-radius:20px;
+}
+.inboxDiv:hover{
+	background-color:#d9e0ea;
 }
 .rightMenus{
-	padding-left:30px;
-        margin-top:24px;
-}
+	padding-left:16px;
+        margin-top:20px;
+        margin-right:20px;
+}        
 .inboxLink{
 	text-decoration: none;
         color: black;
@@ -274,9 +298,6 @@
 }
 .checkBoxdiv{
         display:flex;
-        border-style: groove;
-        border-color: hsl(210deg 7.84% 64.97%);
-        border-width: thin;
         border-radius: 3px;
 	padding:8px 2px 8px 5px;               
 }
@@ -288,20 +309,93 @@
 	margin-left:19px;
         padding-top:10px;
 }
-.rightMaildiv{
+.rightMaildiv{   
 	margin-top:10px;
+        margin-left:5px;        
+        
+}
+.rightContents{
+	display:flex;
+        flex-direction:column;
+        overflow-y:scroll;
+}
+.footer{
+       
+        margin-top:10px;
+        margin-bottom:80px;
+        display:flex;
+        padding-left:450px;
+        padding-top: 10px;
+        padding-right:30px;
+       
+        justify-content:space-between;
+}
+.footerText{
+       text-decoration:none;
+       color:#666867;
+       font-size: 12px;
+}
+.policyLink{
+	margin-left:7px;
+}
+.googlePara{
+	margin-top:5px;
+}
+.activityLink{
+	margin-top:10  px;
+        margin-left:135px;
+}
+.mailCheckdiv{
+        display:flex;
 }
 .message{
 	display:flex;
-        justify-content:space-between;
+        width:100%;
+        padding-left:10px;
+}
+.showMessage{
+	margin-left:100px;
+}
+.messageTime{
+	margin-left:100px;
 }
 .messageDiv{
+        border-style: groove;
+        border-color: #d9e1dc;
+        border-width: thin;
+        max-width:970px;
 	display: flex;
         width:100%;
-        padding-left:25px;     
+        padding: 9px 10px 11px 21px;  
+        cursor:pointer;   
+}
+.messageIconsdiv{
+        display: none;
+}
+.messageDiv:hover .messageTime{
+        display:none;        
+}
+.messageDiv:hover .messageIconsdiv{
+	display:flex;
+        margin-left:20px;
+}
+.messageIcon{
+	margin-left:20px;
 }
 .star{
 	margin-left:10px;
         height:14px;
+}
+.messageSender{
+	font-size:13.5px;  
+}
+.showMessage, .messageTime{
+	font-size:13.5px;  
+	color:#666867;
+}
+.messageDiv:hover{
+	border-right: 1px solid #d6d7db;
+	border-left: 1px solid #d6d7db;
+	box-shadow: 2px 2px 5px 0px rgb(0, 0, 0, 0.5);
 }
 
