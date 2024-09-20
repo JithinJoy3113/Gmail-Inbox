@@ -5,6 +5,9 @@
 }  
 body{
 	overflow-y:hidden; 
+        width:100%;
+        max-width:1370px;
+        
 }
 .headerContents{   
 	display: flex;
@@ -20,15 +23,12 @@ body{
        padding-top: 20px;
        padding-left: 22px;
        padding-right:21px;
-       background-color:rgb(232,234,237);
-       
+       background-color:rgb(232,234,237);       
 }
 .menuIcon{
        width: 24px;
-       height: 24px;
-      
+       height: 24px;      
 }
-
 .gmailImgdiv{
        margin-top: 17px;
        margin-left: 21px;
@@ -70,8 +70,7 @@ body{
         height:90%;
         border:none;
 	border-radius:60px;
-        background-color:#dbe1dd;
-     
+        background-color:#dbe1dd;    
         margin-left:2%;
 }
 .searchOptions{
@@ -80,9 +79,6 @@ body{
 	border-radius:50px;
         background-color:#dbe1dd;
        
-}
-.searchIcon{
-	
 }
 .searchBar{   
 	border-radius: 20px;
@@ -187,12 +183,9 @@ body{
        margin-right:10px;
 }
 .mailDiv{
-	padding-top:40%;
-        
+	padding-top:40%;        
 }
-.mailIcon{
-	
-}
+
 .mail{
 	font-size:12px;  
         margin-left:23%;
@@ -220,8 +213,7 @@ body{
 	align-items: center;
         margin-left:14px;
         padding:16px 24px 15px 14px;
-        border-radius:17px;
-        
+        border-radius:17px;        
 }
 .composeDiv{
 	display:flex;         
@@ -240,7 +232,6 @@ body{
         text-decoration: none;
         color: black;
         font-size:14px;
-
 }
 .inboxDivfirst{
 	display:flex;
@@ -292,6 +283,7 @@ body{
         width:100%;
 }
 .rightTop{
+        width:100%;
         display:flex;
         margin-top:8px;
         padding-left:20px;
@@ -311,23 +303,22 @@ body{
 }
 .rightMaildiv{   
 	margin-top:10px;
-        margin-left:5px;        
-        
+        margin-left:5px;               
 }
 .rightContents{
+        width:auto;
+        max-width:1040px;
 	display:flex;
         flex-direction:column;
         overflow-y:scroll;
 }
-.footer{
-       
+.footer{       
         margin-top:10px;
         margin-bottom:80px;
         display:flex;
         padding-left:450px;
         padding-top: 10px;
-        padding-right:30px;
-       
+        padding-right:30px;       
         justify-content:space-between;
 }
 .footerText{
@@ -346,28 +337,33 @@ body{
         margin-left:135px;
 }
 .mailCheckdiv{
-        display:flex;
+        display:flex;       
 }
 .message{
 	display:flex;
-        width:100%;
-        padding-left:10px;
-}
-.showMessage{
-	margin-left:100px;
+        padding-left:1%;
 }
 .messageTime{
-	margin-left:100px;
+	padding-left: 30%;
+        margin-top: 8%;
 }
 .messageDiv{
-        border-style: groove;
-        border-color: #d9e1dc;
-        border-width: thin;
-        max-width:970px;
+        padding-left: 20px;
+        max-width:1040px;
 	display: flex;
         width:100%;
-        padding: 9px 10px 11px 21px;  
+        height:40px; 
         cursor:pointer;   
+}
+.senderName{
+	padding-top:12px;
+        padding-bottom:5px;
+        width: 25%;       
+}
+.senderMessage{
+    max-width: 66%;
+    padding-top: 12px;
+    padding-bottom: 5px;
 }
 .messageIconsdiv{
         display: none;
@@ -376,26 +372,46 @@ body{
         display:none;        
 }
 .messageDiv:hover .messageIconsdiv{
-	display:flex;
-        margin-left:20px;
+	display:flex;   
+        justify-content: space-between;       
+        padding-top:10px;
+        margin-left:10%;
+        width:15%;      
 }
+.messageDiv:hover .messageTimeimg{
+	display:flex;
+        justify-content:space-between;
+}
+.messageTimeimg{
+	width:150px;        
+}
+
 .messageIcon{
-	margin-left:20px;
+	margin-left:40%;
+	height:21px;       
 }
 .star{
 	margin-left:10px;
         height:14px;
+        margin-top: 12px;
 }
 .messageSender{
-	font-size:13.5px;  
+	font-size:13.5px;
+        width:170px;          
+}
+.showMessage{
+	overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        max-width:100%;
 }
 .showMessage, .messageTime{
 	font-size:13.5px;  
 	color:#666867;
 }
 .messageDiv:hover{
-	border-right: 1px solid #d6d7db;
-	border-left: 1px solid #d6d7db;
-	box-shadow: 2px 2px 5px 0px rgb(0, 0, 0, 0.5);
+	box-shadow: inset 1px 0 0 #ddd, inset -1px 0 0 #ddd, 0 1px 2px 0 #3c40434d, 0 1px 3px 1px #3c404326;
 }
-
+.searchDivphone{
+        display:none;
+}
