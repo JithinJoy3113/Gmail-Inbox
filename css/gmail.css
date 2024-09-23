@@ -1,417 +1,445 @@
-*{
-	font-family:"Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
-        margin:0px;
-        padding:0px;
-}  
-body{
-	overflow-y:hidden; 
-        width:100%;
-        max-width:1370px;
-        
-}
-.headerContents{   
-	display: flex;
-        max-width:1370px;
-        width:100%;
-        height:64px;
-}
-.gmailTitle{
-	display: flex;	
-}
-.menuIcondiv{   
-       display:inline-block;
-       padding-top: 20px;
-       padding-left: 22px;
-       padding-right:21px;
-       background-color:rgb(232,234,237);       
-}
-.menuIcon{
-       width: 24px;
-       height: 24px;      
-}
-.gmailImgdiv{
-       margin-top: 17px;
-       margin-left: 21px;
-}
-.headingDiv{
-       margin-top: 19px;
-       margin-left: 7px;       
-}
-.headingGmail{
-	font-size:138%;
-}
-.searchDiv{
-        margin-top: 1%;
-        margin-left: 140px;
-        margin-bottom:5px;
-	display: flex;
-        width: 100%;
-        max-width: 590px;
-        background-color:#dbe1dd;
-        border-radius: 22px;  
-}      
-.searchBarDiv{
-        display: flex;
-	width: 100%;
-        padding-right: 2%;
-        padding-left: 1%;                   
-}
-.searchButtonDiv{
-        padding-top:11px;
-        margin-left:2%;
-}
-.searchOptionDiv{
-	margin-top:11px;
-        margin-right:2%;
-        margin-left:auto;      
-}
-.searchButton{
-        width: 50%;
-        height:90%;
-        border:none;
-	border-radius:60px;
-        background-color:#dbe1dd;    
-        margin-left:2%;
-}
-.searchOptions{
-        width: 60%;
-        border:none;
-	border-radius:50px;
-        background-color:#dbe1dd;
-       
-}
-.searchBar{   
-	border-radius: 20px;
-        display:flex;
-        width:100%;
-        background-color:#dbe1dd;
-        border:none;
-        font-size:17px;
-      
-}
-.searchBar:focus{
-	outline: none;
-}
-.activeDiv{
-        margin-top: 1%;
-        margin-left:40px;
-	display:flex;
-        width:auto; 
-        max-width:300px;
-        margin-bottom:5px;           	
-}
-.activeGreen{
-        margin-left: 7%;
-        color:green;
-        margin-top:2px;
-        font-size:170%;
-}
-.activeButton{
-	display:flex;
-        border-radius: 22px;
-	background-color:#dbe1dd;         
-}
-.active{
-	margin-left: 6%;
-	padding-top: 12%;
-        font-size:90%;
-}
-.activeDrop{
-        margin-left:6%;
-        margin-right:7%;        
-}
-.helpDiv{
-	margin-left:21px;
-        padding-top: 4%;
-}
-.settingsDiv{
-	margin-left:21px;
-        padding-top: 4%;
-}
-.menuDiv{
-	margin-left:21px;
-        padding-top: 4%;
-}
-.menuImg{
-	width:30%;
-        height:30%;
-	border-radius: 20px;
-}
-.nameDiv{
-	display: flex;
-        position: relative;
-        margin-left:21px;
-        padding-right:8px;
-        height:70%;
-        width:120px;
-        padding-left:5px;
-        border-style: groove;
-        border-color: hsl(210deg 7.84% 64.97%);
-        border-width: thin;
-        border-radius: 6px;
-        margin-top:0.5%;     
-}
-.techImg{
-	width:80px;
-        height:25px;
-        margin-top:10px;
-}
-.letter{
-	margin-top:22%; 
-        margin-left:38%;
-        color:white;       
-}
-.nameLetter{
-        background-color:#3e5fbc;
-        border-radius:50px;
-        width: 31px;
-        height: 68%;
-        margin-left:10px;
-        margin-top:8%;
-}
-.main{
-	display:flex;
-       height:100%;
-}
-.sideNav{
-	height:100%;
-        width:88px;;
-        background-color:rgb(232,234,237);     
-}
-.sideMenudiv{
-        margin-left:10px;
-       margin-right:10px;
-}
-.mailDiv{
-	padding-top:40%;        
+* {
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial,
+        sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
-.mail{
-	font-size:12px;  
-        margin-left:23%;
+body {
+ 
+     
 }
-.sideIconmail{
-	padding:8px 10px 8px 15px;
-        border-radius:30px;
-        background-color: #d9dddb;
+.headerContents {
+    display: flex;
+    
+    height: 64px;
 }
-.sideIcon{
-	padding:8px 13px 8px 15px;
-        border-radius:30px;
+.gmailTitle {
+    display: flex;
 }
-.sideIcon:hover{
-	background-color:#d9dddb;
+.menuIcondiv {
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 22px;
+    padding-right: 21px;
+    background-color: rgb(232, 234, 237);
 }
-.rightMenudiv{
-        background-color: transparent;
-        min-width: 256px;             
+.menuIcon {
+    width: 24px;
+    height: 24px;
 }
-.composeButton{
-        margin-top:8px;
-	display:flex;
-        background-color:#c2e7ff;
-	align-items: center;
-        margin-left:14px;
-        padding:16px 24px 15px 14px;
-        border-radius:17px;        
+.gmailImgdiv {
+    margin-top: 17px;
+    margin-left: 21px;
 }
-.composeDiv{
-	display:flex;         
+.headingDiv {
+    margin-top: 19px;
+    margin-left: 7px;
 }
-.composeButton:hover{
-	border-right: 1px solid #d6d7db;
-	border-left: 1px solid #d6d7db;
-	box-shadow: 2px 2px 5px 0px rgb(0, 0, 0, 0.5);
+.headingGmail {
+    font-size: 138%;
 }
-.composeImg{
-	background-color:#c2e7ff;
-        height:24px;
+.searchDiv {
+    margin-top: 1%;
+    margin-left: 140px;
+    margin-bottom: 5px;
+    display: flex;
+    width: 100%;
+    max-width: 590px;
+    background-color: #dbe1dd;
+    border-radius: 22px;
 }
-.composeLink{
-	margin-left: 13px;
-        text-decoration: none;
-        color: black;
-        font-size:14px;
+.searchBarDiv {
+    display: flex;
+    width: 100%;
+    padding-right: 2%;
+    padding-left: 1%;
 }
-.inboxDivfirst{
-	display:flex;
-        margin-top:2px;
-        background-color:#c8dcfc;
-        padding-left:13px;
-        padding-top:5px;
-        padding-bottom:5px;
-        border-radius:20px;
+.searchButtonDiv {
+    padding-top: 11px;
+    margin-left: 2%;
 }
-.inboxDiv{
-	display:flex;
-        margin-top:2px;
-        padding-left:13px;
-        padding-top:5px;
-        padding-bottom:5px;
-        border-radius:20px;
+.searchOptionDiv {
+    margin-top: 11px;
+    margin-right: 2%;
+    margin-left: auto;
 }
-.inboxDiv:hover{
-	background-color:#d9e0ea;
+.searchButton {
+    width: 50%;
+    height: 90%;
+    border: none;
+    border-radius: 60px;
+    background-color: #dbe1dd;
+    margin-left: 2%;
 }
-.rightMenus{
-	padding-left:16px;
-        margin-top:20px;
-        margin-right:20px;
-}        
-.inboxLink{
-	text-decoration: none;
-        color: black;
-        font-size:14px;
-        margin-left:15px;
-        margin-top:3px;
+.searchOptions {
+    width: 60%;
+    border: none;
+    border-radius: 50px;
+    background-color: #dbe1dd;
 }
-.labelDiv{
-	margin-top:35px;
-        padding-left:33px;
-        display:flex;
-        justify-content:space-between;
-        padding-right:20px;
+.searchBar {
+    border-radius: 20px;
+    display: flex;
+    width: 100%;
+    background-color: #dbe1dd;
+    border: none;
+    font-size: 17px;
 }
-.label{
-	text-decoration: none;
-        color: black;
-        font-size:17px;
+.searchBar:focus {
+    outline: none;
 }
-.rightDiv{
-	display:flex;
-        flex-direction:column;
-        width:100%;
+.activeDiv {
+    margin-top: 1%;
+    margin-left: 40px;
+    display: flex;
+    width: auto;
+    margin-bottom: 5px;
 }
-.rightTop{
-        width:100%;
-        display:flex;
-        margin-top:8px;
-        padding-left:20px;
+.activeGreen {
+    margin-left: 7%;
+    color: green;
+    margin-top: 2px;
+    font-size: 170%;
 }
-.checkBoxdiv{
-        display:flex;
-        border-radius: 3px;
-	padding:8px 2px 8px 5px;               
+.activeButton {
+    display: flex;
+    border-radius: 22px;
+    background-color: #dbe1dd;
 }
-.refreshDiv{
-	margin-left:17px;
-        padding-top:10px;
+.active {
+    margin-left: 6%;
+    padding-top: 12%;
+    font-size: 90%;
 }
-.optionDots{
-	margin-left:19px;
-        padding-top:10px;
+.activeDrop {
+    margin-left: 6%;
+    margin-right: 7%;
 }
-.rightMaildiv{   
-	margin-top:10px;
-        margin-left:5px;               
+.helpDiv {
+    margin-left: 21px;
+    padding-top: 4%;
 }
-.rightContents{
-        width:auto;
-        max-width:1040px;
-	display:flex;
-        flex-direction:column;
-        overflow-y:scroll;
+.settingsDiv {
+    margin-left: 21px;
+    padding-top: 4%;
 }
-.footer{       
-        margin-top:10px;
-        margin-bottom:80px;
-        display:flex;
-        padding-left:450px;
-        padding-top: 10px;
-        padding-right:30px;       
-        justify-content:space-between;
+.menuDiv {
+    margin-left: 21px;
+    padding-top: 4%;
 }
-.footerText{
-       text-decoration:none;
-       color:#666867;
-       font-size: 12px;
+.menuImg {
+    width: 30%;
+    height: 30%;
+    border-radius: 20px;
 }
-.policyLink{
-	margin-left:7px;
+.nameDiv {
+    display: flex;
+    position: relative;
+    margin-left: 21px;
+    padding-right: 8px;
+    height: 92%;
+    width: 120px;
+    padding-left: 5px;
+    border-style: groove;
+    border-color: hsl(210deg 7.84% 64.97%);
+    border-width: thin;
+    border-radius: 6px;
+    margin-top: 0.5%;
 }
-.googlePara{
-	margin-top:5px;
+.techImg {
+    width: 80px;
+    height: 25px;
+    margin-top: 10px;
 }
-.activityLink{
-	margin-top:10  px;
-        margin-left:135px;
+.letter {
+    margin-top: 22%;
+    margin-left: 38%;
+    color: white;
 }
-.mailCheckdiv{
-        display:flex;       
+.nameLetter {
+    background-color: #3e5fbc;
+    border-radius: 50px;
+    width: 31px;
+    height: 68%;
+    margin-left: 10px;
+    margin-top: 8%;
 }
-.message{
-	display:flex;
-        padding-left:1%;
+.main {
+    display: flex;
+    width:100%;
+    height: 100%;
+    overflow: hidden;
 }
-.messageTime{
-	padding-left: 30%;
-        margin-top: 8%;
+.sideNav {
+    height: 100%;
+    background-color: rgb(232, 234, 237);
 }
-.messageDiv{
-        padding-left: 20px;
-        max-width:1040px;
-	display: flex;
-        width:100%;
-        height:40px; 
-        cursor:pointer;   
+.sideMenudiv {
+    margin-left: 10px;
+    margin-right: 10px;
 }
-.senderName{
-	padding-top:12px;
-        padding-bottom:5px;
-        width: 25%;       
+.mailDiv {
+    padding-top: 40%;
 }
-.senderMessage{
-    max-width: 66%;
+.mail {
+    font-size: 12px;
+    margin-left: 23%;
+}
+.sideIconmail {
+    padding: 8px 10px 8px 15px;
+    border-radius: 30px;
+    background-color: #d9dddb;
+}
+.sideIcon {
+    padding: 8px 13px 8px 15px;
+    border-radius: 30px;
+}
+.sideIcon:hover {
+    background-color: #d9dddb;
+}
+.rightMenudiv {
+    background-color: transparent;
+    min-width: 256px;
+}
+.composeButton {
+    margin-top: 8px;
+    display: flex;
+    background-color: #c2e7ff;
+    align-items: center;
+    margin-left: 14px;
+    padding: 16px 24px 15px 14px;
+    border-radius: 17px;
+}
+.composeDiv {
+    display: flex;
+}
+.composeButton:hover {
+    border-right: 1px solid #d6d7db;
+    border-left: 1px solid #d6d7db;
+    box-shadow: 2px 2px 5px 0px rgb(0, 0, 0, 0.5);
+}
+.composeImg {
+    background-color: #c2e7ff;
+    height: 24px;
+}
+.composeLink {
+    margin-left: 13px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.inboxDivfirst {
+    display: flex;
+    margin-top: 2px;
+    background-color: #c8dcfc;
+    padding-left: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+.inboxDiv {
+    display: flex;
+    margin-top: 2px;
+    padding-left: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+.inboxDiv:hover {
+    background-color: #d9e0ea;
+}
+.rightMenus {
+    padding-left: 16px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.inboxLink {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+.labelDiv {
+    margin-top: 35px;
+    padding-left: 33px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.label {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+.rightDiv {
+    display: flex;
+    flex-direction: column;
+    overflow:hidden;
+    height:100%
+}
+.rightTop {
+    display: flex;
+    margin-top: 8px;
+    padding-left: 20px;
+}
+.checkBoxdiv {
+    display: flex;
+    border-radius: 3px;
+    padding: 8px 2px 8px 5px;
+}
+.refreshDiv {
+    margin-left: 17px;
+    padding-top: 10px;
+}
+.optionDots {
+    margin-left: 19px;
+    padding-top: 10px;
+}
+.rightMaildiv {
+    overflow:hidden;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.rightContents {
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    overflow:hidden;
+    
+}
+.footer {
+    margin-top: 10px;
+    margin-bottom: 80px;
+    display: flex;
+    padding-left: 450px;
+    padding-top: 10px;
+    padding-right: 30px;
+    justify-content: space-between;
+}
+.footerText {
+    text-decoration: none;
+    color: #666867;
+    font-size: 12px;
+}
+.policyLink {
+    margin-left: 7px;
+}
+.googlePara {
+    margin-top: 5px;
+}
+.activityLink {
+    margin-top: 10 px;
+    margin-left: 135px;
+}
+.mailCheckdiv {
+    display: flex;
+}
+.message {
+    display: flex;
+    padding-left: 1%;
+    overflow:hidden;
+    width:95%;
+}
+.messageTime {
+    padding-left: 30%;
+    margin-top: 8%;
+}
+.messageDiv {
+    padding-left: 20px;
+    display: flex;
+    height: 40px;
+    cursor: pointer;
+    overflow:hidden;
+    width:100%;
+}
+.messageOne{
+    font-size:14px;
+}
+.messageThree{
+    font-size:14px;
+    color: #666867;
+}
+.messageThree{
+    font-size:14px;
+    color: #666867;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
+.senderName {
     padding-top: 12px;
     padding-bottom: 5px;
+    width: 102px;
 }
-.messageIconsdiv{
-        display: none;
+.senderMessage {
+    text-overflow: ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    padding-left:50px;
+    padding-top: 12px;
+    padding-bottom: 5px;
+
 }
-.messageDiv:hover .messageTime{
-        display:none;        
+.messageIconsdiv {
+    display: none;
 }
-.messageDiv:hover .messageIconsdiv{
-	display:flex;   
-        justify-content: space-between;       
-        padding-top:10px;
-        margin-left:10%;
-        width:15%;      
+.messageDiv:hover .messageTime {
+    display: none;
 }
-.messageDiv:hover .messageTimeimg{
-	display:flex;
-        justify-content:space-between;
+.messageDiv:hover .messageIconsdiv {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    width: 15%;
 }
-.messageTimeimg{
-	width:150px;        
+.messageDiv:hover .messageTimeimg {
+    display: flex;
+    justify-content: space-between;
+}
+.messageTimeimg {
+    width: 150px;
+}
+.messageDetails{
+    display:flex;
+    width: 100%;
+    overflow:hidden;
+}
+.messageIcon {
+    margin-left: 40%;
+    height: 21px;
+}
+.star {
+    margin-left: 10px;
+    height: 14px;
+    margin-top: 12px;
+}
+.messageSender {
+    font-size: 13.5px;
+    width: 100px;
+    
+}
+.showMessage {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: auto;
+    max-width: 98%;
+}
+.showMessage,
+.messageTime {
+    font-size: 13.5px;
+    color: #666867;
+}
+.messageDiv:hover {
+    box-shadow: inset 1px 0 0 #ddd, inset -1px 0 0 #ddd, 0 1px 2px 0 #3c40434d, 0 1px 3px 1px #3c404326;
 }
 
-.messageIcon{
-	margin-left:40%;
-	height:21px;       
+.searchDivphone,.tabView,.tabsearchDiv,.starDiv,.senderName>.messageTime{
+    display: none;
 }
-.star{
-	margin-left:10px;
-        height:14px;
-        margin-top: 12px;
-}
-.messageSender{
-	font-size:13.5px;
-        width:170px;          
-}
-.showMessage{
-	overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        max-width:100%;
-}
-.showMessage, .messageTime{
-	font-size:13.5px;  
-	color:#666867;
-}
-.messageDiv:hover{
-	box-shadow: inset 1px 0 0 #ddd, inset -1px 0 0 #ddd, 0 1px 2px 0 #3c40434d, 0 1px 3px 1px #3c404326;
-}
-.searchDivphone{
-        display:none;
-}
+
+
