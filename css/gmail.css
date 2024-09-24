@@ -6,17 +6,17 @@
 }
 
 body {
- 
+    overflow-y:hidden;
      
 }
 .headerContents {
-    display: flex;
-    
+    display: flex;    
     height: 64px;
+    overflow:hidden;
 }
 .gmailTitle {
     display: flex;
-}
+} 
 .menuIcondiv {
     display: inline-block;
     padding-top: 20px;
@@ -174,10 +174,15 @@ body {
 .sideNav {
     height: 100%;
     background-color: rgb(232, 234, 237);
+      
 }
 .sideMenudiv {
     margin-left: 10px;
     margin-right: 10px;
+     position:sticky;
+    top:0px;
+    left:0px;
+
 }
 .mailDiv {
     padding-top: 40%;
@@ -298,7 +303,9 @@ body {
     padding-top: 10px;
 }
 .rightMaildiv {
-    overflow:hidden;
+    overflow-x:hidden;
+    overflow-y:scroll;
+    height:100%;
     margin-top: 10px;
     margin-left: 5px;
 }
@@ -307,8 +314,7 @@ body {
     height:100%;
     display: flex;
     flex-direction: column;
-    overflow:hidden;
-    
+    overflow:hidden;    
 }
 .footer {
     margin-top: 10px;
@@ -382,7 +388,6 @@ body {
     padding-left:50px;
     padding-top: 12px;
     padding-bottom: 5px;
-
 }
 .messageIconsdiv {
     display: none;
@@ -419,7 +424,7 @@ body {
 }
 .messageSender {
     font-size: 13.5px;
-    width: 100px;
+    width: 102px;
     
 }
 .showMessage {
@@ -438,7 +443,7 @@ body {
     box-shadow: inset 1px 0 0 #ddd, inset -1px 0 0 #ddd, 0 1px 2px 0 #3c40434d, 0 1px 3px 1px #3c404326;
 }
 
-.searchDivphone,.tabView,.tabsearchDiv,.starDiv,.senderName>.messageTime{
+.searchDivphone,.tabView,.tabsearchDiv,.starDiv,.senderName>.messageTime,.senderMessage>.star{
     display: none;
 }
 

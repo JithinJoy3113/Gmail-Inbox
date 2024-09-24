@@ -1,12 +1,15 @@
 @media screen and (max-width:940px){
+	.active,.message>.nameLetter{
+		display: none;
+	}
         .senderMessage {
-             text-overflow: ellipsis;
-             overflow:hidden;
-             white-space:nowrap;
-             padding-top:0px;
-             padding-left:0px;
-             width: 63%;
-}
+             	text-overflow: ellipsis;
+            	overflow:hidden;
+             	white-space:nowrap;
+             	padding-top:0px;
+             	padding-left:0px;
+             	width: 100%;
+	}
         .senderName {
     		padding-top: 12px;
     		width: 20%; 
@@ -23,7 +26,7 @@
 	.message{
 		display: flex;
     		padding-left: 1%;    		
-    		width:95%;
+    		width:100%;
 		height: 70px;
 	}
 	.messageDiv {
@@ -36,7 +39,7 @@
 }
 
 @media screen and (max-width:768px){
-        .headerContents,.sideNav,.rightMenudiv,.rightTop>.refreshDiv,.optionDots,.checkBoxdiv,.star,.messageDiv:hover{
+        .headerContents,.sideNav,.rightMenudiv,.rightTop>.refreshDiv,.optionDots,.checkBoxdiv,.star,.messageDiv:hover,.footer,.message>.nameLetter{
         	display:none;
 	}
 
@@ -131,7 +134,7 @@
 	}
 	.starDiv{
 		display:flex;
-                padding-left:50px;
+                padding-left:13px;
                 padding-top:5px;
 	}
         .messageTimeimg{
@@ -139,25 +142,38 @@
 	}
         .messageTime{
 		color:blue;
+                padding-left:0px;
+                margin-right:10px;
 	}
 	.tabStar{
 		margin-top:12px;
 	}
+	.rightDiv{
+		width:100%;
+	}
 }
 
 @media screen and (max-width:360px){
-	 .searchDiv,.gmailTitle,.activeDiv,.nameDiv,.sideNav,.rightMenudiv,.rightTop,.mailCheckdiv,.tabView,.messageTime{
+	 .searchDiv,.gmailTitle,.activeDiv,.nameDiv,.sideNav,.rightMenudiv,.rightTop,.mailCheckdiv,.tabView,.footer{
                 display:none;
         }
+        .messageDetails{
+        	width:70%;     
+	}
         .message{
-		width:100%;
+		width:94%;
+                height:75px;
+                margin-top:2px;
 	}
         .senderName{
 		display:flex;
+                width:100%;
 	}
 	.senderName>.messageTime{
 		display:flex;
-                margin-left:135px;
+                margin-left:162px;
+                margin-top:0px;
+                padding:0px;
 	}
 	.headerContents{
 		display:flex;
@@ -193,6 +209,7 @@
 	}
        
        .nameLetter{
+                display:flex;
         	background-color:#3e5fbc;
         	border-radius:50px;
         	width: 50px;
@@ -218,15 +235,50 @@
 	}
 	
         .messageTimeimg{
-		width:30px;
+		width:50px;
+                display:flex;
+                flex-direction:column;
 	}
         .messageDisplay{
         	display:flex;
-                flex-direction:column;
-		
+                flex-direction:column;		
+	}
+	.messageTime{
+                color:black;
+		padding-left:0px;
 	}
        .messageDiv:hover{
         	display:none;
 	}
-        
+	.senderMessage{
+        	display:flex;
+                flex-direction:column;
+                width:100%;              
+	}      
+        .starDiv{
+		display:flex; 
+                padding-left:0px;              
+                margin-left:19px;
+	}
+        .tabStar{
+		margin-top:8px;                
+	}
+        .message>.nameLetter{
+                display:flex;
+     		background-color:#3e5fbc;
+        	border-radius:50px;
+        	width: 32px;
+        	height: 30px;
+                margin-left:-3px;
+        	margin-right: 7px;
+        	margin-top:2px;
+	}
+	.messageOne{
+                font-size:13px; 
+                font-weight:bold;
+	}
+        .messageThree{
+        	font-size:13px;  
+	}
+	
 }
